@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_vivod_InputMessage">
+    <wsdl:part name="parameters" element="tns:vivod" />
+  </wsdl:message>
+  <wsdl:message name="IService1_vivod_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vivodResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dobav_InputMessage">
+    <wsdl:part name="parameters" element="tns:dobav" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dobav_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dobavResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dobav1_InputMessage">
+    <wsdl:part name="parameters" element="tns:dobav1" />
+  </wsdl:message>
+  <wsdl:message name="IService1_dobav1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dobav1Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getidstatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:getidstatus" />
+  </wsdl:message>
+  <wsdl:message name="IService1_getidstatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getidstatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_vozvr_spis_InputMessage">
+    <wsdl:part name="parameters" element="tns:vozvr_spis" />
+  </wsdl:message>
+  <wsdl:message name="IService1_vozvr_spis_OutputMessage">
+    <wsdl:part name="parameters" element="tns:vozvr_spisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actcash_InputMessage">
+    <wsdl:part name="parameters" element="tns:actcash" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actcash_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actcashResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actact_InputMessage">
+    <wsdl:part name="parameters" element="tns:actact" />
+  </wsdl:message>
+  <wsdl:message name="IService1_actact_OutputMessage">
+    <wsdl:part name="parameters" element="tns:actactResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cash_off_InputMessage">
+    <wsdl:part name="parameters" element="tns:cash_off" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cash_off_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cash_offResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_turn_cash_InputMessage">
+    <wsdl:part name="parameters" element="tns:turn_cash" />
+  </wsdl:message>
+  <wsdl:message name="IService1_turn_cash_OutputMessage">
+    <wsdl:part name="parameters" element="tns:turn_cashResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vivod">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/vivod" message="tns:IService1_vivod_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/vivodResponse" message="tns:IService1_vivod_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dobav">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dobav" message="tns:IService1_dobav_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dobavResponse" message="tns:IService1_dobav_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="dobav1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/dobav1" message="tns:IService1_dobav1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/dobav1Response" message="tns:IService1_dobav1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getidstatus">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/getidstatus" message="tns:IService1_getidstatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/getidstatusResponse" message="tns:IService1_getidstatus_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="vozvr_spis">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/vozvr_spis" message="tns:IService1_vozvr_spis_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/vozvr_spisResponse" message="tns:IService1_vozvr_spis_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actcash">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actcash" message="tns:IService1_actcash_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actcashResponse" message="tns:IService1_actcash_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="actact">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/actact" message="tns:IService1_actact_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/actactResponse" message="tns:IService1_actact_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="cash_off">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/cash_off" message="tns:IService1_cash_off_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/cash_offResponse" message="tns:IService1_cash_off_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="turn_cash">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/turn_cash" message="tns:IService1_turn_cash_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/turn_cashResponse" message="tns:IService1_turn_cash_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vivod">
+      <soap:operation soapAction="http://tempuri.org/IService1/vivod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dobav">
+      <soap:operation soapAction="http://tempuri.org/IService1/dobav" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dobav1">
+      <soap:operation soapAction="http://tempuri.org/IService1/dobav1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getidstatus">
+      <soap:operation soapAction="http://tempuri.org/IService1/getidstatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="vozvr_spis">
+      <soap:operation soapAction="http://tempuri.org/IService1/vozvr_spis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actcash">
+      <soap:operation soapAction="http://tempuri.org/IService1/actcash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="actact">
+      <soap:operation soapAction="http://tempuri.org/IService1/actact" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cash_off">
+      <soap:operation soapAction="http://tempuri.org/IService1/cash_off" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="turn_cash">
+      <soap:operation soapAction="http://tempuri.org/IService1/turn_cash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary1/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

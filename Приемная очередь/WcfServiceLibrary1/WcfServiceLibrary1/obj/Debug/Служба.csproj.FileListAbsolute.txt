@@ -1,0 +1,18 @@
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\Служба.csprojResolveAssemblyReference.cache
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\Екатерина\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\Служба.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\1\Desktop\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\Служба.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\1\Desktop\Приемная комиссия\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
